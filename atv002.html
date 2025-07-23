@@ -2,19 +2,21 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Calcular Média</title>
+    <title>Média Aritmética</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="js/media.js" defer></script>
+    <script src="script002.js" defer></script>
 </head>
 <body>
-    <h1>Calculadora de Média</h1>
-    <label for="num1">Primeiro número:</label>
-    <input type="number" id="num1">
-
-    <label for="num2">Segundo número:</label>
-    <input type="number" id="num2">
-
-    <button onclick="calcularMedia()">Calcular Média</button>
+    <h1>Cálculo da Média</h1>
+    <form id="mediaForm">
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" required>
+        <br><br>
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" required>
+        <br><br>
+        <button type="submit">Calcular Média</button>
+    </form>
 </body>
 </html>
 
